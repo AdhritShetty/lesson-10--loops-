@@ -1,11 +1,4 @@
-b=int(input("enter a number for binary conversion:"))
-result=0
-i=1
-m=0
-if i ==0:
-    print(0)
-elif i==1:
-    print(1)
-else:
-    while i<<b:
+b=int(input("enter a decimal number for binary conversion:"))
+binary=bin(b)[2:]
+print (binary)
     
